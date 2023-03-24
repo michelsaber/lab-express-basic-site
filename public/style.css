@@ -1,0 +1,71 @@
+.body {
+  background-image: url("/public/images/background.jpeg");
+  background-repeat: no-repeat;
+  min-height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.body img #homeH1 {
+}
+#homeImage {
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 19vw;
+}
+
+.nav ul li {
+  float: left;
+}
+
+.nav ul li a {
+  font-size: 25px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background-color: #111;
+}
+
+.homeH1 {
+  color: rgb(0, 208, 223);
+  font-size: 45px;
+}
+
+.text {
+  color: rgb(160, 209, 26);
+  width: 450px;
+  font-size: 25px;
+}
+
+.textAndImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#spaceXImage {
+  width: 50vw;
+  border-radius: 50%;
+}
+
+.worksImages {
+  width: 40vw;
+  height: 30vw;
+}
+
+#wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
